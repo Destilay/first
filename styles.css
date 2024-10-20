@@ -1,3 +1,49 @@
 div{
     color:red;
 }
+body {
+    background-color:white;
+}
+h1 {
+    color: blue;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: 0cm;
+    margin: 0%;
+}
+h2 {
+    color: red;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: 0cm;
+    margin: 0%;
+}
+h3 {
+    color: green;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: 0cm;
+    margin: 0%;
+}    
+hr {
+    color: black;
+}
+p  {
+    color: rgb(0, 0, 125);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: 0cm;
+    margin: 0%;
+}
+blockquote {
+    color: rgba(1, 2, 45, 0.5);
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0%;
+    border: 0cm;
+    margin: 0%;
+}
