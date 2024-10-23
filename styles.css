@@ -47,3 +47,23 @@ blockquote {
     border: 0cm;
     margin: 0%;
 }
+a:link {
+    color: aqua;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color:purple;
+    background-color: transparent;
+    text-decoration:wavy;
+    }
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}    
+a:active {
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}    
