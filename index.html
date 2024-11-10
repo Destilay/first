@@ -6,15 +6,36 @@
     <title>My first index html</title>
 <!--zov-->
     <!--INTERNAL CSS ADDED 8-16-->
-    <!--<style> 
-    body {background-color: azure;}  
-    h1 {color: blue;} 
-    h2 {color: green;}
-    h3 {color: yellow;}
-    p  {color: red;} 
-    hr {color: black;}
-    b  {color: aqua;}
-    </style>-->
+    <!--
+    <style> 
+    body {
+        background-color: azure;
+        background-image: url(One_GANX.png);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }  
+    h1 {
+        color: blue;
+    } 
+    h2 {
+        color: green;
+    }
+    h3 {
+        color: yellow;
+    }
+    p  {
+        color: red;
+    } 
+    hr {
+        color: black;
+    }
+    b  {
+        color: aqua;
+    }
+
+    </style>
+-->
 <!--zov-->
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -138,7 +159,23 @@
 
     <h2 id="C10">Chapter 10</h2>
     <p>This chapter explains ba bla bla</p>
-
+<!--HTML Images-->
+<!--Image map-->
+<img src="One_GANX.png" usemap="#workmap" width="400" height="400" >
+<map name="workmap">
+    <area shape="rect" coords="0,0,400,400" href="anime.html" onclick="animegirlfuncktion()">
+</map>
+<script>
+    function animegirlfuncktion() {
+        alert("OTAKU!!!")
+    }
+</script>
+<br>
+<picture>
+    <source media="(min-width: 650px)" srcset="img_food.jpg">
+    <source media="(min-width: 465px)" srcset="img_car.jpg">
+    <img src="One_GANX.png">
+  </picture>
 </body>
 
 </html>

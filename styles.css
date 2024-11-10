@@ -67,3 +67,7 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }    
+img {
+    width: 20%;
+    height: 20%;
+}
