@@ -1,8 +1,10 @@
-div{
-    color:red;
+div {
+    
+    margin: auto;
 }
 body {
     background-color:white;
+    margin: auto;
 }
 h1 {
     color: blue;
