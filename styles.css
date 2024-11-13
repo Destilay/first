@@ -71,3 +71,7 @@ img {
     width: 20%;
     height: 20%;
 }
+div {
+    width:30%;  
+    display:flex;
+}
